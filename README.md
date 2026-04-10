@@ -10,11 +10,15 @@ The software is a Matlab application, and as such is provided in one of two form
 
 ### Standalone Executable (.exe)
 
-To use the standalone executable, download and run the file "/release/package/MyAppInstaller.exe" from the Github repository. Follow the instructions which would download and install all the required elements needs to run the application (requires an Internet connection for initial installation)
+To use the standalone executable, download and run the file "[/release/package/MyAppInstaller.exe](/release/package/MyAppInstaller.exe)" from the Github repository. Follow the instructions which should download and install all the required elements needed to run the application (requires an Internet connection for initial installation).
 
 ### Matlab Application
 
+Use of the Matlab Application file (.mlapp) required having a licensed version of Matlab installed on the machine. If available, download and run the file "[SphereSoundSpeeds.mlapp](SphereSoundSpeeds.mlapp)" from the Github repository.
 
+## How to Use
+
+TBD
 
 ## Disclaimer
 
