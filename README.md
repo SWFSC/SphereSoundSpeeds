@@ -1,10 +1,20 @@
-# SWFSC-Template
+# Tool to Improve Calibration Accuracy by Characterizing Sphere Sound Speeds
 
-The README provides a description of the repository. The README file will vary greatly depending on the repo contents. 
+This application is used to estimate the longitudinal and transversal sound speeds of a standard sphere used in calibrations of fisheries echosounders, which will lead to improved calibration results and more accurate sensor measurements. The tool interfaces with the Kongsberg EK80 software to subscribe to wideband (FM) data, using either live or replay data. Wideband spectra from the sphere echo are then compared to theoretical results for the given sphere, and a minimization technique used to estimate the sphere sound speeds that best align the measurements.
 
-## License
+## Installation
 
-User task: Choose an open source license, depending on the repo contents and the [latest NMFS guidance](https://nmfs-opensci.github.io/GitHub-Guide/#sec-license). You do not need to keep this 'License' section in your repo readme.
+The software is a Matlab application, and as such is provided in one of two format:
+1. A Matlab application file (.mlapp) that can be run using a licensed version of Matlab
+2. A standalone executable that can be run on any computer, with or without Matlab
+
+### Standalone Executable (.exe)
+
+To use the standalone executable, download and run the file "/release/package/MyAppInstaller.exe" from the Github repository. Follow the instructions which would download and install all the required elements needs to run the application (requires an Internet connection for initial installation)
+
+### Matlab Application
+
+
 
 ## Disclaimer
 
